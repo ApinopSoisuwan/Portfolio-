@@ -1,0 +1,37 @@
+{% extends "layout.html "%}
+    {% block content %}
+        <style>
+            .p1 {
+            font-family:monospace;
+            }
+            .img-size{
+                width: 250;
+                height: 300;
+            }
+            .top-left {
+            position: absolute;
+            top: 8px;
+            left: 25px;
+            }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            }
+
+
+            
+        </style>
+
+        <p class="p1" style="font-size: xxx-large; " align="center"  >Diary</p>
+        <hr>
+        <div class="p1" align="center">
+            <p style="font-size: xx-large;">Learning automation anywhere</p>
+            <p>(start 3 august 2021 : finish 14 august 2021 )</p>
+            <img  class='center 'src="https://i.ibb.co/cr8tZ28/rpa-test.jpg" alt="">
+           <img  class='center 'src="https://i.ibb.co/mt7gHdr/RPA.jpg" alt="">         
+        </div>
+        
+
+    {% endblock %}
