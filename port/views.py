@@ -12,3 +12,7 @@ def home (request):
 
 def diary (request):
     return render(request,"diary.html")
+
+def contact (request) :
+    return render(request, "contact.html")
+
