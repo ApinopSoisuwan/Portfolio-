@@ -1,0 +1,49 @@
+{% extends "layout.html "%}
+    {% block content %}
+        <style>
+            .p1 {
+            font-family:monospace;
+            }
+            .img-size{
+                width: 250;
+                height: 300;
+            }
+            .top-left {
+            position: absolute;
+            top: 8px;
+            left: 25px;
+            }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            }
+        </style>
+    <title>Diary</title>
+    <div align="center" class="p1">
+        <p  style="font-size: xxx-large; ">Diary</p>
+        <p " >(edit 20/12/2021)</p>
+        <hr>
+            <p style="font-size: xx-large;">Scientific Computing with Python</p>
+            <p>( start 6 july 2021 : finish 18 november 2021 )</p>
+            <p>from Stelligence</p>
+            <img  class='center 'src="https://i.ibb.co/cr8tZ28/rpa-test.jpg" alt="">
+            <img  class='center 'src="https://i.ibb.co/mt7gHdr/RPA.jpg" alt="">  
+        <hr>  
+            <p style="font-size: xx-large;">Scientific Computing with Python</p>
+            <p>( start 3 august 2021 : finish 14 august 2021 )</p>
+            from <a href="https://www.freecodecamp.org">www.freecodecamp.org</a>
+            <img  class='center 'src="https://i.ibb.co/h7TdLYd/python-test.gif" alt="">
+            <img  class='center 'src="https://i.ibb.co/VCgFD4Y/cert-from-freecode.jpg" alt="">  
+        <hr>  
+            <p style="font-size: xx-large;">Challenge myself </p>
+            <p>( Lifetime )</p>
+            <p>from Leedcome,Clashofcode,Borntodev</p>
+            <img  class='center 'src="https://i.ibb.co/Y0JbV2P/borntodev.jpg" alt="">
+            <img  class='center 'src="https://i.ibb.co/RDDrFfT/cert-from-codingame.png" alt="">  
+        <hr> 
+    </div>
+        
+
+    {% endblock %}

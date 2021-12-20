@@ -17,8 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from port import views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("home/",views.layout)
-
+    path("",views.home),
+    path("home/",views.home),
+    path("diary/",views.diary),
+    path("contact/",views.contact),
 ]
